@@ -1,0 +1,62 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-image{
+    background-image: url(images/2.png);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-size: 1700px 773px;
+    
+    /* padding-top: 200px; */
+}
+.home{
+    display: grid;
+    grid-template-rows: 1fr 1fr 3fr;
+    margin-top: 80px;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 770px;
+    height: 200px;
+}
+
+.welcome{
+    color: white;
+    font-size: 2cm;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 3%;
+}
+.motto{
+    color: white;
+    font-size: 0.8cm;
+    margin-top: 5%;
+    margin-left: 27.5%;
+    margin-bottom: 10px;
+    width: 800px;
+    height: 100px;
+    text-align: center;
+}
+
+.button-right{
+    color: white;
+    font-family:"OPEN SANS", sans-serif;
+    font-size: 17px;
+    height: 60px;
+    width: 300px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 700px;
+    border-style: none;
+    background-color: rgb(198, 117, 23);
+    border-radius: 30px;
+    box-shadow: 0px 2px 1px white;
+    transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
+
+.button-right:hover{
+    color: rgb(198, 117, 23);
+    background-color: white;
+    box-shadow: 0px 2px 1px rgb(198, 117, 23);
+}
